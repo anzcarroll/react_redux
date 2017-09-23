@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-const myKey = config.YOUTUBE_KEY;
+import SearchBar from './components/SearchBar';
+import YOUTUBE_KEY from './../.env';
 
 
 const App = () => {
-    return <div>HI!!</div>;
+    return <div>
+        <div>HELLLLO</div>
+        <SearchBar />
+
+    </div>;
 }
 
 ReactDOM.render(<App/>, document.querySelector('.container'));
